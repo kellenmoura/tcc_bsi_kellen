@@ -1,0 +1,84 @@
+module Newmodel
+
+sig Marketsales {
+PARTY: one Party,
+ResourceCapability: one Resourcecapability}
+
+sig Supplierpartner {
+PARTY: one Party,
+ResourceCapability: one Resourcecapability,
+PRODUCT: one Product,
+CustomerFacingService: one Customerfacingservice,
+ResourceFacingService: one Resourcefacingservice}
+
+sig Party {
+MarketSales: one Marketsales,
+SupplierPartner: one Supplierpartner,
+WORK: one Work,
+CUSTOMER: one Customer,
+USER: one User,
+BusinessInteraction: one Businessinteraction,
+LOCATION: one Location}
+
+sig Location {
+ResourceCapability: one Resourcecapability,
+PARTY: one Party}
+
+sig Customer {
+PARTY: one Party,
+CustomerOrder: one Customerorder}
+
+sig Product {
+SupplierPartner: one Supplierpartner,
+CustomerFacingService: one Customerfacingservice,
+CustomerOrder: one Customerorder}
+
+sig Customerfacingservice {
+SupplierPartner: one Supplierpartner,
+PRODUCT: one Product,
+ResourceFacingService: one Resourcefacingservice,
+USER: one User}
+
+sig Resourcefacingservice {
+SupplierPartner: one Supplierpartner,
+CustomerFacingService: one Customerfacingservice,
+USER: one User,
+ResourceCapability: one Resourcecapability}
+
+sig User {
+PARTY: one Party,
+CustomerOrder: one Customerorder,
+CustomerFacingService: one Customerfacingservice,
+ResourceFacingService: one Resourcefacingservice,
+FinancialsInvoice: one Financialsinvoice}
+
+sig Customerorder {
+CUSTOMER: one Customer,
+PRODUCT: one Product,
+BusinessInteraction: one Businessinteraction,
+FinancialsInvoice: one Financialsinvoice,
+USER: one User}
+
+sig Businessinteraction {
+PARTY: one Party,
+CustomerOrder: one Customerorder}
+
+sig Work {
+PARTY: one Party,
+ResourceCapability: one Resourcecapability}
+
+sig Financialsinvoice {
+CustomerOrder: one Customerorder,
+USER: one User,
+ResourceCapability: one Resourcecapability}
+
+sig Resourcecapability {
+MarketSales: one Marketsales,
+SupplierPartner: one Supplierpartner,
+LOCATION: one Location,
+WORK: one Work,
+ResourceFacingService: one Resourcefacingservice,
+FinancialsInvoice: one Financialsinvoice}
+
+pred show[] {} 
+run show

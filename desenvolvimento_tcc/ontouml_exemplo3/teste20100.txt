@@ -1,0 +1,21 @@
+module Newmodel
+open util/ordering[State] as state
+open util/relation
+
+sig Person{}
+sig Man, Woman in Person{}
+fact generalization_set{
+	disj[Man,Woman]
+	Person = Man+Woman
+}
+sig State{
+	exists: set (Person),
+	disj LivingPerson, DeceasedPerson: set Person:>exists,
+	Descendent: set Person:>exists,
+} {
+	all x:exists|x not in this.next.@exists implies x not in this.^next.@exists
+	Person:>exists = LivingPerson+DeceasedPerson
+}
+
+pred show[] {} 
+run show
