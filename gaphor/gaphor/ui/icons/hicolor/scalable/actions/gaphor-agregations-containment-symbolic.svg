@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4268"
+   version="1.1"
+   viewBox="0 0 4.1987968 4.2476212"
+   height="16.054001"
+   width="15.869469"
+   sodipodi:docname="gaphor-agregations-containment-symbolic.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview9"
+     showgrid="false"
+     inkscape:zoom="11.848244"
+     inkscape:cx="3.5811604"
+     inkscape:cy="5.4925777"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4268" />
+  <defs
+     id="defs4262" />
+  <metadata
+     id="metadata4265">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="path4594-6-2-8"
+     d="M 0.2568429,4.1064043e-4 A 0.26328132,0.26182702 0 0 1 0.3151384,0.01010758 L 2.1574046,0.53383823 A 0.2635993,0.26214322 0 1 1 2.0135997,1.0382423 L 0.62606992,0.64399545 1.0225066,2.0238609 A 0.26359944,0.26214338 0 1 1 0.51529987,2.1668719 L -0.0113389,0.33478185 A 0.26328132,0.26182702 0 0 1 0.25683892,4.4428286e-4 Z"
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.525054;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+  <path
+     id="path18"
+     d="m 0.47919053,0.27635966 a 0.26325517,0.26180101 0 0 1 0.17684207,0.0753708 l 0.0719031,0.0715056 a 0.26325517,0.26180101 0 0 1 0,0.37105632 0.26325517,0.26180101 0 0 1 -0.371174,0 L 0.28485859,0.7227867 a 0.26325517,0.26180101 0 0 1 0,-0.3710563 0.26325517,0.26180101 0 0 1 0.19433194,-0.0753707 z M 1.2953846,1.0880453 a 0.26325517,0.26180101 0 0 1 0.1768421,0.075371 L 1.845344,1.5344722 a 0.26325517,0.26180101 0 0 1 0,0.3710563 0.26325517,0.26180101 0 0 1 -0.3731173,0 L 1.1010527,1.5344724 a 0.26325517,0.26180101 0 0 1 0,-0.3710564 0.26325517,0.26180101 0 0 1 0.1943319,-0.075371 z m 1.1174087,1.1112364 a 0.26325517,0.26180101 0 0 1 0.1768421,0.075371 L 2.9627527,2.645709 a 0.26325517,0.26180101 0 0 1 0,0.3691237 0.26325517,0.26180101 0 0 1 -0.3731173,0 L 2.216518,2.6457088 a 0.26325517,0.26180101 0 0 1 0,-0.3710563 0.26325517,0.26180101 0 0 1 0.1962753,-0.075371 z m 1.1154653,1.1093038 a 0.26325517,0.26180101 0 0 1 0.1787854,0.077304 l 0.371174,0.3710562 a 0.26325517,0.26180101 0 0 1 0,0.3691238 0.26325517,0.26180101 0 0 1 -0.371174,0 L 3.3339267,3.7569455 a 0.26325517,0.26180101 0 0 1 0,-0.3710562 0.26325517,0.26180101 0 0 1 0.1943319,-0.077304 z"
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.525054;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.525054, 1.0501;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:2.78966px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0697417"
+     x="-0.093837008"
+     y="4.3526797"
+     id="text13"
+     transform="scale(1.0433172,0.95848128)"><tspan
+       sodipodi:role="line"
+       id="tspan11"
+       x="-0.093837008"
+       y="4.3526797"
+       style="stroke-width:0.0697417">c</tspan></text>
+</svg>
