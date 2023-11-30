@@ -1,0 +1,41 @@
+module Newmodel
+open util/ordering[State] as state
+open util/relation
+
+sig Organization{}
+sig Person{}
+sig Enrollment{
+	School: some Organization,
+	Student: some Person,
+	derived_material_relation0: Student some -> School,
+}
+sig Woman, Man in Person{}
+fact generalization_set{
+	disj[Woman,Man]
+	Person = Woman+Man
+}
+fun Agent:(Person+Organization){
+	Person+Organization
+}
+sig State{
+	exists: set (Organization+Person+Enrollment),
+	disj Adult, Teenager, Child: set Person:>exists,
+	disj Deceased, Living: set Person:>exists,
+	Student: set Person:>exists,
+	School: set Organization:>exists,
+	Insurable: set Organization:>exists+Living,
+	study: set Student -> School,
+} {
+	all x:exists|x not in this.next.@exists implies x not in this.^next.@exists
+	Person:>exists = Adult+Teenager+Child
+	Person:>exists = Deceased+Living
+	all x:Enrollment:>exists | x.School in Organization:>exists and  x.Student in Person:>exists
+	Student = (Enrollment:>exists).Student
+	(Enrollment:>exists).School in School
+	all x: School | some Enrollment:>exists:>School.x
+	Insurable = Organization:>exists+Living
+	study in exists.derived_material_relation0
+}
+
+pred show[] {} 
+run show

@@ -1,0 +1,22 @@
+module Newmodel
+
+sig Employee {}
+
+sig Developer extends Employee {
+Project: one Project}
+
+sig Designer extends Employee {}
+
+sig Project {
+Developer: one Developer,
+Department: one Department,
+ProjectMilestone: one Projectmilestone}
+
+sig Projectmilestone {
+Project: one Project}
+
+sig Department {
+Project: one Project}
+
+pred show[] {} 
+run show

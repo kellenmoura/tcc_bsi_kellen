@@ -1,0 +1,23 @@
+module Newmodel
+
+sig Funcionario {}
+
+sig Gerente extends Funcionario {
+orcamentosControlados: String,
+dataDesignacao: String,}
+
+sig Programador extends Funcionario {
+projeto: String,
+linguagemProgramacao: String,}
+
+sig Gerente_projeto extends Gerente {
+projetos: String,}
+
+sig Gerente_departamento extends Gerente {
+departamento: String,}
+
+sig Gerente_estrategico extends Gerente {
+responsabilidades: String,}
+
+pred show[] {} 
+run show

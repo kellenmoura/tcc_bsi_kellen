@@ -1,0 +1,20 @@
+module Newmodel
+open util/ordering[State] as state
+open util/relation
+
+sig Veiculo{}
+sig Carro, Moto in Veiculo{}
+fact generalization_set{
+	disj[Carro,Moto]
+	Veiculo = Carro+Moto
+}
+sig State{
+	exists: set (Veiculo),
+	Quebrado: set Veiculo:>exists,
+	Intacto: set Veiculo:>exists,
+} {
+	all x:exists|x not in this.next.@exists implies x not in this.^next.@exists
+}
+
+pred show[] {} 
+run show
